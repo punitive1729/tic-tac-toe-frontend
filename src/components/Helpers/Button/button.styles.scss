@@ -1,0 +1,37 @@
+.button-new {
+  height: 80%;
+  width: 120px;
+  display: flex;
+  margin-top: 2px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  font-size: larger;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 2px;
+  &:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+}
+
+.button-join {
+  height: 80%;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: larger;
+  color: white;
+  margin-top: 2px;
+  border-radius: 2px;
+  font-size: larger;
+  background-color: #1590ff;
+  &:hover {
+    cursor: pointer;
+  }
+}

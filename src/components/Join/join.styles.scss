@@ -1,0 +1,43 @@
+.join-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  width: 375px;
+  height: 400px;
+  min-width: 350px;
+  .join-heading {
+    margin-top: -50px;
+    padding-bottom: 30px;
+    height: 50px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .form {
+    display: flex;
+    width: 80%;
+    height: 60%;
+    flex-direction: column;
+    .input {
+      padding-left: 7px;
+      height: 40px;
+      border: 2px solid black;
+      font-size: large;
+      font-weight: 300;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin: 5px;
+    }
+  }
+
+  .buttons-container {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60px;
+    margin-top: -100px;
+  }
+}
