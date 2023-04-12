@@ -10,11 +10,7 @@ const Card = ({ image, customClickEvent, id }) => {
 
   return (
     <div className='card-container' onClick={() => customClickEvent(id)}>
-      {source != null ? (
-        <img src={source} alt={image} className='card-image' />
-      ) : (
-        ''
-      )}
+      {source && <img src={source} alt={image} className='card-image' />}
     </div>
   );
 };
