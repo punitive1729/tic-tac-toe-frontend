@@ -1,8 +1,7 @@
 const SUCCESS = 'SUCCESS';
 const FAIL = 'FAIL';
 
-export const BACKEND_BASE_URL =
-  'https://tic-tac-toe-backend-production.up.railway.app';
+export const BACKEND_BASE_URL = 'https://tic-tac-toe-c5q2.onrender.com';
 export const CREATE_NEW_ROOM_BACKEND_URL = `${BACKEND_BASE_URL}/create`;
 export const JOIN_ROOM_BACKEND_URL = `${BACKEND_BASE_URL}/join`;
 
