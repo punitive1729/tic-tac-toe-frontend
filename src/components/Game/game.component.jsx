@@ -130,7 +130,9 @@ const Game = () => {
         type: SUCCESS_SNACKBAR_CONTEXT_TYPE,
         message,
       });
-      navigate('/', { replace: true });
+      setTimeout(() => {
+        navigate('/', { replace: true });
+      }, 1500);
     });
   }, []);
 
