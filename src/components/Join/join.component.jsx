@@ -54,6 +54,8 @@ const Join = () => {
         setTimeout(() => {
           navigate('/waiting', { replace: true });
         }, 1000);
+      } else {
+        clicked = false;
       }
     });
   }, []);
