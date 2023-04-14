@@ -60,7 +60,7 @@ const Join = () => {
 
   const joinRoom = () => {
     if (clicked) return;
-    clicked = true;
+
     if (userName.length === 0) {
       return setSnackbarContext({
         type: FAIL_SNACKBAR_CONTEXT_TYPE,
@@ -73,6 +73,7 @@ const Join = () => {
         message: USERNAME_TOO_LONG_MESSAGE,
       });
     }
+    clicked = true;
     socket.emit(JOIN_ROOM_REQ_EVENT, { userName, roomId });
   };
 
