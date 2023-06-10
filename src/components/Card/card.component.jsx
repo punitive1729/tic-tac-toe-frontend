@@ -12,7 +12,7 @@ const Card = ({ image, customClickEvent, id }) => {
 
   return (
     <div className='card-container' onClick={() => customClickEvent(id)}>
-      source
+      {source}
     </div>
   );
 };
