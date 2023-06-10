@@ -5,12 +5,14 @@ import { CIRCLE, CROSS } from '../../constants';
 
 const Card = ({ image, customClickEvent, id }) => {
   let source = null;
-  if (image === CROSS) source = Cross;
-  if (image === CIRCLE) source = Circle;
+  if (image === CROSS)
+    source = <img src={Cross} alt={image} className='card-image' />;
+  if (image === CIRCLE)
+    source = <img src={Circle} alt={image} className='card-image' />;
 
   return (
     <div className='card-container' onClick={() => customClickEvent(id)}>
-      {source && <img src={source} alt={image} className='card-image' />}
+      source
     </div>
   );
 };
